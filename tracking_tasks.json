@@ -1,0 +1,38 @@
+[
+    {
+        "task_id":  "TASK-CUST-0006-01",
+        "customer_id":  "CUST-0006",
+        "company_name":  "Tập đoàn Kho vận Ánh Dương 106",
+        "contract_id":  "HD-AT-2025-0006",
+        "assigned_to":  "Bùi Thanh Hương",
+        "role":  "CS",
+        "due_date":  "2026-11-14",
+        "stage":  "T+3 Ngày",
+        "task_title":  "Gọi điện xác nhận nhận email báo giá \u0026 giải đáp câu hỏi của khách hàng",
+        "status":  "PENDING"
+    },
+    {
+        "task_id":  "TASK-CUST-0006-02",
+        "customer_id":  "CUST-0006",
+        "company_name":  "Tập đoàn Kho vận Ánh Dương 106",
+        "contract_id":  "HD-AT-2025-0006",
+        "assigned_to":  "Nguyễn Văn Tuấn",
+        "role":  "SALES",
+        "due_date":  "2026-11-18",
+        "stage":  "T+7 Ngày",
+        "task_title":  "Gửi dự thảo Phụ lục Gia hạn \u0026 Hẹn lịch ký hợp đồng điện tử",
+        "status":  "PENDING"
+    },
+    {
+        "task_id":  "TASK-CUST-0006-03",
+        "customer_id":  "CUST-0006",
+        "company_name":  "Tập đoàn Kho vận Ánh Dương 106",
+        "contract_id":  "HD-AT-2025-0006",
+        "assigned_to":  "Nguyễn Văn Tuấn",
+        "role":  "SALES",
+        "due_date":  "2026-11-25",
+        "stage":  "T+14 Ngày",
+        "task_title":  "Chốt ký hợp đồng \u0026 áp dụng ưu đãi Early Bird trước hạn chót",
+        "status":  "PENDING"
+    }
+]

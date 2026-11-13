@@ -1,0 +1,36 @@
+[
+    {
+        "timestamp":  "2026-11-11 10:27:15",
+        "customer_id":  "CUST-0001",
+        "contract_id":  "HD-AT-2025-0001",
+        "actor_role":  "SALES_MANAGER",
+        "action":  "PROPOSAL_REJECTED",
+        "notes":  "Trưởng phòng từ chối và trả về Bước 3. Lý do: Y�u c?u CS ki?m tra l?i ti?n d? x? l� ticket v?i d?i K? thu?t tru?c khi tr�nh l?i."
+    },
+    {
+        "value":  [
+                      {
+                          "timestamp":  "2026-11-11 10:24:47",
+                          "customer_id":  "CUST-0006",
+                          "contract_id":  "HD-AT-2025-0006",
+                          "actor_role":  "SALES_MANAGER",
+                          "action":  "PROPOSAL_APPROVED",
+                          "notes":  "Trưởng phòng phê duyệt đề xuất. Đã kích hoạt lệnh gửi email gia hạn và lên lịch theo dõi T+3, T+7, T+14."
+                      },
+                      {
+                          "value":  [
+                                        {
+                                            "timestamp":  "2026-11-11T09:00:00+07:00",
+                                            "customer_id":  "SYSTEM",
+                                            "contract_id":  "ALL",
+                                            "actor_role":  "AI_AGENT",
+                                            "action":  "DATA_INGESTION_AND_ANALYSIS",
+                                            "notes":  "AI Agent hoàn thành đọc 4 nguồn dữ liệu và phân tích 120 hồ sơ hợp đồng kỳ Tháng 12/2026 - 01/2027 theo ngày đối chiếu 2026-11-11."
+                                        }
+                                    ],
+                          "Count":  1
+                      }
+                  ],
+        "Count":  2
+    }
+]

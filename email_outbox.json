@@ -1,0 +1,17 @@
+{
+    "tracking_id":  "TRK-AT-20261111-CUST-0006",
+    "customer_id":  "CUST-0006",
+    "contract_id":  "HD-AT-2025-0006",
+    "company_name":  "Tập đoàn Kho vận Ánh Dương 106",
+    "recipient_email":  "contact6@khovnnhdng.vn",
+    "signer_name":  "Giám đốc Dương 106",
+    "subject":  "[An Tín Software] Thông báo kế hoạch gia hạn hợp đồng dịch vụ phần mềm - Tập đoàn Kho vận Ánh Dương 106",
+    "body":  "Kính gửi Giám đốc Dương 106,\n\nHợp đồng dịch vụ phần mềm số HD-AT-2025-0006 của Quý công ty sẽ đến kỳ gia hạn vào ngày 02/12/2026. Để đảm bảo dịch vụ vận hành liên tục không gián đoạn, An Tín trân trọng gửi bảng chào giá gia hạn gói Standard với chính sách ưu đãi Early Bird 5% khi xác nhận trước ngày 17/11/2026.\n\nTrân trọng cảm ơn sự tin tưởng của Quý khách hàng.",
+    "proposed_package":  "Standard",
+    "proposed_seats":  16,
+    "proposed_value":  21888000,
+    "sales_rep":  "Nguyễn Văn Tuấn",
+    "cs_rep":  "Bùi Thanh Hương",
+    "status":  "SENT_SUCCESS",
+    "dispatched_at":  "2026-11-11 10:24:47"
+}
