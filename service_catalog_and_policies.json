@@ -1,0 +1,95 @@
+{
+  "service_catalog": [
+    {
+      "package_id": "PKG-STD",
+      "package_name": "Standard",
+      "monthly_price_per_user": 120000,
+      "annual_price_per_user": 1440000,
+      "min_users": 5,
+      "max_users": 20,
+      "storage_gb": 20,
+      "target_segment": "Doanh nghiệp vừa và nhỏ (SMB)",
+      "features": ["Core CRM", "Quản lý liên hệ", "Báo cáo cơ bản", "Hỗ trợ qua Email (SLA 24h)"]
+    },
+    {
+      "package_id": "PKG-PRO",
+      "package_name": "Professional",
+      "monthly_price_per_user": 220000,
+      "annual_price_per_user": 2640000,
+      "min_users": 15,
+      "max_users": 80,
+      "storage_gb": 100,
+      "target_segment": "Doanh nghiệp tăng trưởng (Mid-market)",
+      "features": ["Tự động hóa quy trình", "Phân quyền nâng cao", "Báo cáo BI chuyên sâu", "Tích hợp Open API", "Hỗ trợ Hotline & Email (SLA 8h)"]
+    },
+    {
+      "package_id": "PKG-ENT",
+      "package_name": "Enterprise",
+      "monthly_price_per_user": 380000,
+      "annual_price_per_user": 4560000,
+      "min_users": 50,
+      "max_users": 9999,
+      "storage_gb": 500,
+      "target_segment": "Tập đoàn & Doanh nghiệp lớn",
+      "features": ["Dedicated CS Manager", "SLA 99.9% 24/7", "AI Analytics", "Bảo mật nâng cao SSO/Audit Logs", "Tùy biến luồng dữ liệu riêng", "Sao lưu realtime"]
+    }
+  ],
+  "lead_time_policy": {
+    "PKG-STD": { "lead_days": 30, "description": "Bắt đầu liên hệ trước 30 ngày so với ngày hết hạn" },
+    "PKG-PRO": { "lead_days": 45, "description": "Bắt đầu liên hệ trước 45 ngày so với ngày hết hạn" },
+    "PKG-ENT": { "lead_days": 60, "description": "Bắt đầu liên hệ trước 60 ngày so với ngày hết hạn" }
+  },
+  "discount_policies": [
+    {
+      "code": "DISC_EARLY_BIRD",
+      "name": "Ưu đãi Gia hạn sớm (Early Bird)",
+      "discount_percent": 10,
+      "conditions": "Đồng ý xác nhận gia hạn trước ngày hết hạn hợp đồng >= 30 ngày."
+    },
+    {
+      "code": "DISC_MULTI_YEAR_2Y",
+      "name": "Ưu đãi Cam kết 2 năm",
+      "discount_percent": 15,
+      "conditions": "Cam kết ký hợp đồng kỳ hạn 2 năm và thanh toán theo kỳ 12 tháng hoặc 1 lần."
+    },
+    {
+      "code": "DISC_MULTI_YEAR_3Y",
+      "name": "Ưu đãi Cam kết 3 năm",
+      "discount_percent": 20,
+      "conditions": "Cam kết ký hợp đồng kỳ hạn 3 năm."
+    },
+    {
+      "code": "DISC_VOLUME_30",
+      "name": "Chiết khấu Quy mô 30-49 Users",
+      "discount_percent": 5,
+      "conditions": "Quy mô số tài khoản sử dụng từ 30 đến 49 users."
+    },
+    {
+      "code": "DISC_VOLUME_50",
+      "name": "Chiết khấu Quy mô 50-99 Users",
+      "discount_percent": 10,
+      "conditions": "Quy mô số tài khoản sử dụng từ 50 đến 99 users."
+    },
+    {
+      "code": "DISC_VOLUME_100",
+      "name": "Chiết khấu Quy mô 100+ Users",
+      "discount_percent": 15,
+      "conditions": "Quy mô số tài khoản sử dụng từ 100 users trở lên."
+    },
+    {
+      "code": "DISC_LOYALTY",
+      "name": "Tri ân Khách hàng Thân thiết (>= 2 năm)",
+      "discount_percent": 5,
+      "conditions": "Khách hàng duy trì dịch vụ liên tục từ 2 năm trở lên và không có nợ quá hạn."
+    }
+  ],
+  "compliance_rules": {
+    "max_allowed_discount_percent": 25,
+    "min_contract_value_for_discount": 15000000,
+    "min_users_for_discount": 10,
+    "block_upsell_if_open_critical_tickets": true,
+    "block_upsell_if_csat_below": 3.0,
+    "low_adoption_threshold_percent": 50.0,
+    "high_adoption_threshold_percent": 85.0
+  }
+}
